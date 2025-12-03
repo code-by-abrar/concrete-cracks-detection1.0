@@ -1,0 +1,26 @@
+# Concrete Crack Segmentation Model
+
+This repository contains a deep-learning based **segmentation model** for detecting **cracks** in concrete structures like bridges, pavements, and buildings.  
+
+The model is trained on a **single class**:
+
+- **0 → crack**
+
+It generates **pixel-level masks** to precisely locate cracks.
+
+---
+
+## 🧠 Model Details
+
+- **Number of Classes:** 1  
+- **Class Name:** crack  
+- **Task:** Image Segmentation  
+- **Input Image Size:** 640×640  
+- **Use-Case:** Infrastructure monitoring, civil engineering inspections  
+
+---
+
+## 📂 Dataset Structure
+
+Organize your dataset like this:
+
